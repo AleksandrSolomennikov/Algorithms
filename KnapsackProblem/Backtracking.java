@@ -1,19 +1,15 @@
+package KnapsackProblem;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
 public class Backtracking {
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(0, 3);
-        System.err.println(list);
-
-        //ArrayList<Item> items = fillList("sac4.txt");
-        //System.out.println(sacBacktracking(items, capacity, 0, 0, new ArrayList<Item>()));
-        //System.out.println(sacDP(items, capacity));
-        //System.out.println(solution);
+        ArrayList<Item> items = fillList("KnapsackProblem/Knapsack tests/sac1.txt");
+        System.out.println(sacBacktracking(items, capacity, 0, 0, new ArrayList<Item>()));
+        System.out.println(sacDP(items, capacity));
+        System.out.println(solution);
     }
 
     static int capacity;

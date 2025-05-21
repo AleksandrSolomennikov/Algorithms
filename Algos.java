@@ -8,27 +8,26 @@ import Graphs.Graph;
 
 public class Algos {
     public static void main(String[] args) {
-        Graph graph = new Graph("graph50.txt");
-        Graph graph2 = new Graph("graph50.txt");
+        Graph graph = new Graph("Graphs/Graph tests/graph50.txt");
 
-        Graph randomGraph1 = new Graph(1000, 0.1);
-        Graph randomGraph2 = new Graph(1000, 0.1);
-        //randomGraph1.addArc(new Arc(0, 4, 1));
-        //randomGraph1.addArc(new Arc(1, 2, 4));
-        //randomGraph1.addArc(new Arc(4, 3, 2));
+        Graph randomGraph1 = new Graph(100, 0.1);
+        randomGraph1.addArc(new Arc(0, 4, 1));
+        randomGraph1.addArc(new Arc(1, 2, 4));
+        randomGraph1.addArc(new Arc(4, 3, 2));
 
         long startTime1 = System.currentTimeMillis();
-        System.out.println(randomGraph1.algoDijkstra(0, 7));
+        System.out.println(graph.algoDijkstra(0, 7));
         long endTime1 = System.currentTimeMillis() - startTime1;
 
         System.out.println("Time for the first algo " + endTime1);
 
         long startTime2 = System.currentTimeMillis();
-        System.out.println(randomGraph2.algoDijkstraPriorityQueue(0, 7));
+        System.out.println(randomGraph1.algoDijkstra(0, 7));
         long endTime2 = System.currentTimeMillis() - startTime2;
 
         System.out.println("Time for the second algo " + endTime2);
 
+        System.out.println("Way " + graph.showTheWay());
         System.out.println("Way " + randomGraph1.showTheWay());
 
     }

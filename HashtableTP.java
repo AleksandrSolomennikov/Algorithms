@@ -5,18 +5,18 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.HashMap;
 
 public class HashtableTP {
     public static void main(String[] args) {
         String p = "salutchat";
+        String u = "salut";
 
         long startTime = System.currentTimeMillis();
-        //System.out.println(twoSum(p, u));
+        System.out.println(twoSum(p, u));
 
-        System.out.println(twoSum(p));
+        //System.out.println(twoSum(p));
         long endTime = System.currentTimeMillis();
         
         System.out.println(endTime - startTime + " ms " + "2-somme");
@@ -94,7 +94,7 @@ public class HashtableTP {
 
     public static String twoSum(String p, String u) {
         HashMap<Integer, HashMap<String, List<String>>> map = new HashMap<>();
-        String filePath = "dico_test.txt";
+        String filePath = "Hashtable tests/dico_test.txt";
         fillHashMap(map, filePath);
 
         String v = substractionWords(p, u);
@@ -113,9 +113,9 @@ public class HashtableTP {
 
     }
 
-    public static String twoSum(String p) {
+    /*public static String twoSum(String p) {
         HashMap<Integer, HashMap<String, List<String>>> map = new HashMap<>();
-        String filePath = "dico_test.txt";
+        String filePath = "Hashtable tests/dico_test.txt";
         fillHashMap(map, filePath);
 
         String result = "";
@@ -134,5 +134,5 @@ public class HashtableTP {
             
         }
         return "false";
-    }
+    }*/
 }
