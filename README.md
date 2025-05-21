@@ -1,6 +1,10 @@
-# Algorithms 1 – University Project
+// ru version below
 
-## Overview
+# EN
+
+## Algorithms 1 – University Project
+
+### Overview
 
 This project implements classic algorithms and data structures in Java, organized into four main modules:
 
