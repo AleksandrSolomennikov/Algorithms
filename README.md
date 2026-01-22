@@ -107,7 +107,7 @@ Modify or extend these files to benchmark and validate algorithm implementations
 
 ---
 
-## Authors
+## Author
 
 - [Aleksandr Solomennikov]
 - [Aix-Marseille Université / Faculté des Sciences]
@@ -222,7 +222,7 @@ Modify or extend these files to benchmark and validate algorithm implementations
 
 ---
 
-## Авторы
+## Автор
 
 - [Александр Соломенников]
 - [Университет Экс-Марселя / Научный Факультет]
