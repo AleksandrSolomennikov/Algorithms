@@ -153,7 +153,11 @@ Modify or extend these files to benchmark and validate algorithm implementations
 - Быстрая сортировка (Quick Sort)
 
 **Использование:**  
-Запустите или импортируйте `Algos.java` для тестирования и сравнения алгоритмов сортировки на примерах данных.
+`javac Algos.java` - компиляция
+
+`java Algos` - запуск
+
+В функции `main` можно необходимый алгоритм.
 
 ---
 
