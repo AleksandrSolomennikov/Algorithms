@@ -169,8 +169,12 @@ Modify or extend these files to benchmark and validate algorithm implementations
 - Бэктрекинга
 - Динамического программирования
 
-**Использование:**  
-Используйте тестовые файлы из `KnapsackProblem/Knapsack tests/` для оценки производительности алгоритмов.
+**Использование:**
+`javac KnapsackProblem/Backtracking.java` - компиляция
+
+`java KnapsackProblem/Backtracking` - запуск
+
+В функции `main` можно задать параметры задачи.
 
 ---
 
@@ -181,7 +185,11 @@ Modify or extend these files to benchmark and validate algorithm implementations
 Реализовано решение задачи p-суммы с использованием стандартной функции `hashCode()` в Java.
 
 **Использование:**  
-Тестовые файлы находятся в папке `Hashtable tests/` для проверки и сравнения решений.
+`javac HashtableTP.java` - компиляция 
+
+`java HashtableTP` - запуск
+
+В функции `main` можно задать параметры задачи.
 
 ---
 
@@ -190,10 +198,10 @@ Modify or extend these files to benchmark and validate algorithm implementations
 **Файл:** `Graphs/Graph.java`  
 **Точка входа:** `Algos.java`
 
-Реализован алгоритм Дейкстры для поиска кратчайшего пути с использованием `PriorityQueue` и потоков Java.
+Реализован алгоритм Дейкстры для поиска кратчайшего пути с использованием `PriorityQueue`.
 
 **Использование:**  
-Данные графа можно загрузить из файлов в папке `Graphs/Graph tests/`.
+В функции `main` в файле `Algos.java` указывается использование этого алгоритма.
 
 ---
 
@@ -221,8 +229,7 @@ Modify or extend these files to benchmark and validate algorithm implementations
 
 ## Тестирование
 
-Тестовые данные находятся в соответствующих папках `tests` для каждого модуля.  
-Вы можете изменять или дополнять эти файлы для сравнения и проверки решений.
+Тестовые данные находятся в соответствующих папках `tests` для каждого модуля. Тесты используются в функции `main`, необходимо лишь запустить нужный файл.
 
 ---
 
