@@ -157,7 +157,7 @@ Modify or extend these files to benchmark and validate algorithm implementations
 
 `java Algos` - запуск
 
-В функции `main` можно необходимый алгоритм.
+В функции `main` можно выбрать необходимый алгоритм.
 
 ---
 
